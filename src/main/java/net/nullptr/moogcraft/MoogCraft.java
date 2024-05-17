@@ -1,6 +1,7 @@
 package net.nullptr.moogcraft;
 
 import net.fabricmc.api.ModInitializer;
+import net.nullptr.moogcraft.block.ModBlocks;
 import net.nullptr.moogcraft.item.ModItems;
 
 import org.slf4j.Logger;
@@ -12,8 +13,8 @@ public class MoogCraft implements ModInitializer {
 
 	@Override
 	public void onInitialize() {
-
 		LOGGER.info("Hello Fabric world!");
 		ModItems.registerModItemsInGroup();
+		ModBlocks.registerModBlocks();
 	}
 }
