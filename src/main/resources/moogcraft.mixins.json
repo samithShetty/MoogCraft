@@ -1,6 +1,6 @@
 {
 	"required": true,
-	"package": "net.nullptr.vanillapp.mixin",
+	"package": "net.nullptr.moogcraft.mixin",
 	"compatibilityLevel": "JAVA_21",
 	"mixins": [
 		"ExampleMixin"

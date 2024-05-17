@@ -1,4 +1,4 @@
-package net.nullptr.vanillapp.mixin;
+package net.nullptr.moogcraft.mixin;
 
 import net.minecraft.server.MinecraftServer;
 import org.spongepowered.asm.mixin.Mixin;

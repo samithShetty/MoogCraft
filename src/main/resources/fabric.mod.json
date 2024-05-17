@@ -1,6 +1,6 @@
 {
 	"schemaVersion": 1,
-	"id": "vanillapp",
+	"id": "moogcraft",
 	"version": "${version}",
 	"name": "Vanilla++",
 	"description": "This is an example description! Tell everyone what your mod is about!",
@@ -12,18 +12,18 @@
 		"sources": "https://github.com/FabricMC/fabric-example-mod"
 	},
 	"license": "CC0-1.0",
-	"icon": "assets/vanillapp/icon.png",
+	"icon": "assets/moogcraft/icon.png",
 	"environment": "*",
 	"entrypoints": {
 		"main": [
-			"net.nullptr.vanillapp.Vanillapp"
+			"net.nullptr.moogcraft.MoogCraft"
 		],
 		"fabric-datagen": [
-			"net.nullptr.vanillapp.VanillappDataGenerator"
+			"net.nullptr.moogcraft.MoogCraftDataGenerator"
 		]
 	},
 	"mixins": [
-		"vanillapp.mixins.json"
+		"moogcraft.mixins.json"
 	],
 	"depends": {
 		"fabricloader": ">=0.15.11",
