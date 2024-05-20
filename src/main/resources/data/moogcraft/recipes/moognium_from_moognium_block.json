@@ -1,0 +1,13 @@
+{
+    "type": "minecraft:crafting_shapeless",
+    "category": "misc",
+    "ingredients": [
+        {
+            "item": "moogcraft:moognium_block"
+        }
+    ],
+    "result": {
+        "id": "moogcraft:moognium",
+        "count": 9
+    }
+}
