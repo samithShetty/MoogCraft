@@ -16,18 +16,14 @@
 	"environment": "*",
 	"entrypoints": {
 		"main": [
-			"sirbrotato.moogcraft.MoogCraft"
+			"com.sirbrotato.moogcraft.MoogCraft"
 		],
-		"client": [
-			"sirbrotato.moogcraft.client.MoogCraftClient"
+		"fabric-datagen": [
+			"com.sirbrotato.moogcraft.MoogCraftDataGenerator"
 		]
 	},
 	"mixins": [
-		"moogcraft.mixins.json",
-		{
-			"config": "moogcraft.client.mixins.json",
-			"environment": "client"
-		}
+		"moogcraft.mixins.json"
 	],
 	"depends": {
 		"fabricloader": ">=0.19.5",
